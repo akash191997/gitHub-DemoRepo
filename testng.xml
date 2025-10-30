@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+<listeners>
+<listener class-name="TestNG_Demo.MyAnnotationTransformer">
+</listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="TestNG_Demo.ExecuteFailedTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
